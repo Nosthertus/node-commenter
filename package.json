@@ -1,0 +1,28 @@
+{
+	"name": "node-commenter",
+	"version": "0.0.0",
+	"description": "A node.js package to build comments",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nosthertus/node-commenter.git"
+	},
+	"keywords": [
+		"comment",
+		"code",
+		"build",
+		"utility"
+	],
+	"author": {
+		"name": "Nosthertus",
+		"email": "nosthertus@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nosthertus/node-commenter/issues"
+	},
+	"homepage": "https://github.com/nosthertus/node-commenter#readme"
+}
