@@ -1,6 +1,6 @@
 {
   "name": "node-commenter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A node.js package to build comments",
   "main": "index.js",
   "scripts": {
