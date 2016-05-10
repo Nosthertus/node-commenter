@@ -1,5 +1,7 @@
+ var commenter = require('./index.js');
+
  var comment = {
-	header: "the header message",
+	description: "the header message",
 	example: {
 		traits: ["pageable", "searchable"]
 	},
@@ -20,7 +22,7 @@
 	]
 };
 
-commmenter.buildBlock(comment);
+console.log(commenter.buildBlock(comment));
 
 /**
  * the header message
