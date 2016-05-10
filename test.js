@@ -2,7 +2,7 @@
 
  var comment = {
 	description: "the header message",
-	example: {
+	extra: {
 		traits: ["pageable", "searchable"]
 	},
 	params:[
@@ -26,13 +26,12 @@ console.log(commenter.buildBlock(comment));
 
 /**
  * the header message
- *
- * example:
- * 		*traits:
- * 			- pageable
- * 			- searchable
- *
- * @param  {Object} obj description of the object parameter
- * @param  {String} str description of the string parameter
- * @return {Boolean}    Wheter the value passes
+ * 
+ * *traits:
+ * 	 - pageable
+ * 	 - searchable
+ * 
+ * @param  {Object}  obj  description of the object parameter
+ * @param  {String}  str  description of the string parameter
+ * @return  {Boolean}    Wheter the value passes
  */
